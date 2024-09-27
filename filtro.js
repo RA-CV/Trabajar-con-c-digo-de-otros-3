@@ -8,10 +8,10 @@ const productos = [
   {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ]
 
-const li = document.getElementsById("lista-de-productos")//corregido
+const li = document.getElementById("lista-de-productos")//corregido
 const $i = document.querySelector('input[type="text"]');//corregido
 
-const displayProductos = (productos) => {
+const displayProductos = (productos) => { 
 
 for (let i = 0; i < productos.length; i++) {
   var d = document.createElement("div")
